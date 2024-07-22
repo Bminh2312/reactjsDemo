@@ -1,0 +1,9 @@
+.sale {
+    position: absolute;
+    width: 50px;
+    top: 2%;
+    left: 5%;
+    background-color: red;
+    color: #fff;
+    z-index: 1;
+}

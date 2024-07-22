@@ -12,15 +12,19 @@ export default function CardItem(props) {
                 style={{
                     width: '18rem',
                     padding: "0px",
-                    position:"relative"
+                    position: "relative"
 
                 }}
             >
-                <div className='sale'>12 Off</div>
+                <div className='sale'
+                    style={{
+                        borderRadius: "5px",
+                    }}
+                >12 Off</div>
                 <img
                     alt="Sample"
                     src={cartItem.img}
-                   
+
                 />
                 <CardBody>
                     <CardSubtitle
@@ -29,7 +33,7 @@ export default function CardItem(props) {
                     >
                         <i class="fa-solid fa-location-dot"></i> {cartItem.category}
                     </CardSubtitle>
-                    <CardTitle tag="h5" className=''>
+                    <CardTitle tag="h5" >
                         {cartItem.title}
                     </CardTitle>
                     <CardText>
